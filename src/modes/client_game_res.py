@@ -16,10 +16,6 @@ class ClientGameRes(Download):
     
     client_names = [
             "StandaloneWindows64", 
-            "Android", 
-            "iOS", 
-            "PS4", 
-            "PS5"
             ]
 
     def __init__(self, branch):

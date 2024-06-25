@@ -23,7 +23,7 @@ class Logger:
     def _time(self):
         now = datetime.datetime.now()
         time = now.strftime("%H:%M:%S")
-        if now.hour > 18 and now.hour < 5:
+        if  now.hour < 18 and now.hour > 5:
             return f"{time} (☀️)"
         else:
             return f"{time} (🌙)"

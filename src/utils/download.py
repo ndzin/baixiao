@@ -21,6 +21,9 @@ class Download:
 
     
     def _download(self, file: dict) -> str:
+        if os.path.exists(f"{file['path']}/{file['name']}"):
+            return "FileExists"
+        
         if not os.path.exists(file['path']):
             os.makedirs(file['path'])
         
@@ -57,4 +60,3 @@ class Download:
             
             case _:
                 return "UnknownDownloadMode"
-    

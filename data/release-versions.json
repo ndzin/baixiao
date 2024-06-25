@@ -130,5 +130,25 @@
         },
         "version_info": [
         ]
-    }
+    },
+    "4.8_live": {
+            "full": {},
+            "hdiff": {},
+            "resource_info": [
+                {
+                    "res": {
+                        "version": 24186149,
+                        "suffix": "a8430a8044"
+                    },
+                    "client": {
+                        "version": 24291804,
+                        "suffix": "2b7d4cdc95"
+                    },
+                    "silence": {
+                        "version": 24250954,
+                        "suffix": "8aef983fa0"
+                    }
+                }
+            ]
+        }
 }
